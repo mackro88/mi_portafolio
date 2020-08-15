@@ -34,7 +34,7 @@ header{
 }
 
 .description .line {
-    border-top: 2px solid orangered;
+    border-top: 2px solid rgb(240, 96, 60);
     max-width: 100px;
     padding: 0;
     margin: 0 auto 0 auto;
@@ -44,8 +44,24 @@ header{
     line-height: 2;
 }
 .my-exp .line {
-    border-top: 2px solid orangered;
+    border-top: 2px solid rgb(240, 96, 60);
     max-width: 100px;
     padding: 1rem 0 1rem 0;
     margin: 0 auto 0 auto;
+    }
+.portafolio{
+    background-color: rgb(240, 96, 60);
+    color: whitesmoke;
+}
+.portafolio .line {
+    border-top: 2px solid whitesmoke;
+    max-width: 100px;
+    padding: 1rem 0 1rem 0;
+    margin: 0 auto 0 auto;
+    }
+    .card-body{
+        color: black;
+    }
+    .card-title{
+        font-weight: 600;
     }
