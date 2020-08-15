@@ -1,8 +1,14 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.navbar-brand{
+    font-weight: 400; 
+    font-size: 2rem;
 }
 .navbar-nav{
     margin-left: auto;
+    font-weight: 400;
 }
 header{
     background-image: url("../img/bg-foto-mia.png");
@@ -12,9 +18,34 @@ header{
 }
 .text-header{
     padding-top: 400px;
-}
-.text-header-bottom{
     padding-bottom: 50px;
-    border-top-style: solid;
+}
+.text-header .line {
+    border-top: 2px solid whitesmoke;
+    max-width: 200px;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    }
+.desc-pp{
+    line-height: 1.5;
+    text-justify: newspaper;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
+.description .line {
+    border-top: 2px solid orangered;
+    max-width: 100px;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    }
+.desc-text{
+    font-weight: 300;
+    line-height: 2;
+}
+.my-exp .line {
+    border-top: 2px solid orangered;
+    max-width: 100px;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    }
