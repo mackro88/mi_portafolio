@@ -65,3 +65,12 @@ header{
     .card-title{
         font-weight: 600;
     }
+    .icons i{
+        font-size: 2rem;
+        padding: 0 10 0 10;
+    }
+    @media (max-width: 600px) {
+        .description {
+          display: none;
+        }
+    }
